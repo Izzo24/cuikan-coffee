@@ -253,8 +253,8 @@ p{text-wrap:pretty}
 .subscribe .btn:hover{background:#fff;color:var(--ink);border-color:#fff}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(120%);background:var(--ink);color:var(--paper);
   font-family:var(--sans);font-size:14px;padding:14px 24px;border-radius:3px;border:1px solid var(--accent-2);
-  box-shadow:0 8px 24px var(--shadow);z-index:200;transition:transform .4s;max-width:90vw}
-.toast.show{transform:translateX(-50%) translateY(0)}
+  box-shadow:0 8px 24px var(--shadow);z-index:200;transition:transform .4s;max-width:90vw;visibility:hidden;opacity:0}
+.toast.show{transform:translateX(-50%) translateY(0);visibility:visible;opacity:1}
 
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:24px 0}
 .contact-block{border:1px solid var(--rule);padding:22px;background:var(--paper-2)}
